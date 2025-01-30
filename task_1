@@ -1,0 +1,25 @@
+class Program
+{
+    static void Main()
+    {
+        // Ask the user to enter a password
+        Console.Write("Enter a password: ");
+        
+        // Read the user input
+        string password = Console.ReadLine();
+
+        // Check the password length
+        if (password.Length < 6)
+        {
+            Console.WriteLine("Weak password. Use at least 6 characters.");
+        }
+        else if (password.Length >= 6 && password.Length <= 10)
+        {
+            Console.WriteLine("Medium password. Add more characters for better security.");
+        }
+        else
+        {
+            Console.WriteLine("Strong password. Great job!");
+        }
+    }
+}
