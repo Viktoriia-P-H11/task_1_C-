@@ -1,9 +1,129 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10">
   <diagram name="Страница — 1" id="8TGHiDwCt-MOXCyyKTO2">
-    <mxGraphModel>
+    <mxGraphModel dx="1562" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-26" value="START" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="CVTB-QJAjOz5AAcugaTX-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="460" as="sourcePoint" />
+            <mxPoint x="300" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-28" value="&#xa;[Prompt user to enter a password] &amp;nbsp;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-29" value="&#xa;[Read user input] &amp;nbsp;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-31" value="&#xa;[Is password length &amp;lt; 6?]&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="640" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CVTB-QJAjOz5AAcugaTX-28" target="CVTB-QJAjOz5AAcugaTX-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="390" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="620" as="sourcePoint" />
+            <mxPoint x="300" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="700" as="sourcePoint" />
+            <mxPoint x="300" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CVTB-QJAjOz5AAcugaTX-31" target="CVTB-QJAjOz5AAcugaTX-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="480" as="sourcePoint" />
+            <mxPoint x="420" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-37" value="TRUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="640" width="46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="CVTB-QJAjOz5AAcugaTX-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="670" as="sourcePoint" />
+            <mxPoint x="514" y="669.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-39" value="TRUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="800" width="46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-40" value="FALSE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277" y="720" width="46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CVTB-QJAjOz5AAcugaTX-40" target="CVTB-QJAjOz5AAcugaTX-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="490" as="sourcePoint" />
+            <mxPoint x="300" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-42" value="&#xa;[Output: &quot;Weak password&quot;] &#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CVTB-QJAjOz5AAcugaTX-43" target="CVTB-QJAjOz5AAcugaTX-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-43" value="&#xa;[Is password length between 6 and 10?]&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="800" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="829.5" as="sourcePoint" />
+            <mxPoint x="429" y="829.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CVTB-QJAjOz5AAcugaTX-39" target="CVTB-QJAjOz5AAcugaTX-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="679.5" as="sourcePoint" />
+            <mxPoint x="500" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-49" value="[Output: &quot;Medium password&quot;] &lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="800" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="860" as="sourcePoint" />
+            <mxPoint x="300" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-53" value="FALSE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277" y="880" width="46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="940" as="sourcePoint" />
+            <mxPoint x="300" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-59" value="[Output: &quot;Strong password&quot;]&amp;nbsp; " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="960" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-60" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="1020" as="sourcePoint" />
+            <mxPoint x="300" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVTB-QJAjOz5AAcugaTX-61" value="END&amp;nbsp; " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
